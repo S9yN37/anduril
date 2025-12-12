@@ -48,10 +48,10 @@
 #define HALFSPEED_LEVEL 20
 #define QUARTERSPEED_LEVEL 5
 
-#define RAMP_SMOOTH_FLOOR    1
+#define RAMP_SMOOTH_FLOOR    13
 #define RAMP_SMOOTH_CEIL     150
 // 20 38 56 [75] 93 111 130
-#define RAMP_DISCRETE_FLOOR  20
+#define RAMP_DISCRETE_FLOOR  30
 #define RAMP_DISCRETE_CEIL   130
 #define RAMP_DISCRETE_STEPS  7
 
@@ -84,3 +84,5 @@
 #undef BLINK_AT_RAMP_MIDDLE
 #endif
 
+// UI
+#define SIMPLE_UI_ACTIVE 0 // advanced UI by default
